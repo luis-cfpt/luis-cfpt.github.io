@@ -4,6 +4,14 @@
  * Version: V1, 25.09.2023
  * File: js/main.js
  */
+
+if ("serviceWorker" in navigator)
+{
+    windows.addEventListener("load", () => {
+	navigator.serviceWorker.register("/sw.js");
+    })
+}
+
 let listAllCountries = [];
 
 /**
