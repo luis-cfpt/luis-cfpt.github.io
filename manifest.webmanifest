@@ -8,8 +8,8 @@
     "start_url": "/",
     "display": "standalone",
     "orientation": "any",
-    "theme_color": "#000000",
-    "background_color": "#1e90ff",
+    "theme_color": "#fff",
+    "background_color": "#fff",
     "icons": [
         {
             "src": "/images/pt.svg",
