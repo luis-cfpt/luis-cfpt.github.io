@@ -7,7 +7,7 @@
 
 if ("serviceWorker" in navigator)
 {
-    windows.addEventListener("load", () => {
+    window.addEventListener("load", () => {
 	navigator.serviceWorker.register("/sw.js");
     })
 }
