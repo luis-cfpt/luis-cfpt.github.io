@@ -254,7 +254,6 @@ section {
     resize: none;
     background-color: transparent;
     font-size: 17px;
-    overflow: auto;
 }
 
 .input-chat textarea::-webkit-scrollbar {

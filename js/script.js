@@ -4,6 +4,12 @@ let backHome = document.querySelectorAll('.backHome');
 let home = document.querySelector('.home-phone');
 let chat = document.querySelector('.chat-phone');
 
+window.addEventListener('resize', e => {
+    // console.log(e.currentTarget);
+    document.querySelector('body').style.width = e.currentTarget.innerWidth + 'px';
+    document.querySelector('body').style.height = e.currentTarget.innerHeight + 'px';
+});
+
 let xStart = 0;
 chat.addEventListener('touchstart', 
 (event) => 
@@ -53,7 +59,7 @@ for (const friend of chatFriends)
 
 for (const back of backHome) 
 {
-    back.addEventListener('touchstart', 
+    back.addEventListener('click', 
     (event) => 
     {
         event.target.closest('section').style.left = "100%";
