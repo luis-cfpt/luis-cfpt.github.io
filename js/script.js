@@ -30,7 +30,7 @@ chat.addEventListener('touchmove',
 for (const friend of chatFriends) 
 {
     // let xStart = 0;
-    friend.addEventListener('touchstart', 
+    friend.addEventListener('click', 
     (event) => 
     {
         event.target.closest('section').style.left = "-100%";
