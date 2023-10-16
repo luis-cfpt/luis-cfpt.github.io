@@ -83,7 +83,7 @@ section {
 
 .friends {
     width: 100%;
-    height: calc(100% - 60px - 5%);
+    height: calc(100% - 60px);
     display: flex;
     flex-direction: column;
     padding: 10px 0;
@@ -203,7 +203,7 @@ section {
 
 .chat {
     width: 100%;
-    height: calc(100% - 60px - 5%);
+    height: calc(100% - 60px);
     position: relative;
     display: flex;
     flex-direction: column;

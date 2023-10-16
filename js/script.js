@@ -33,7 +33,7 @@ for (const friend of chatFriends)
     friend.addEventListener('click', 
     (event) => 
     {
-        event.target.closest('section').style.left = "-100%";
+        // event.target.closest('section').style.left = "-100%";
         chat.style.left = "0";
     });   
 
@@ -57,6 +57,5 @@ for (const back of backHome)
     (event) => 
     {
         event.target.closest('section').style.left = "100%";
-        home.style.left = "0";
     });    
 }
