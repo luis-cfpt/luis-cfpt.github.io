@@ -1,15 +1,15 @@
 {
     "lang": "en",
     "dir": "ltr",
-    "name": "All Countries",
-    "description": "Show all countries in the world",
-    "short_name": "Countries",
+    "name": "SVG Icons",
+    "description": "Multiply icons by LuisDS",
+    "short_name": "SVG Icons",
     "scope": "/",
     "start_url": "/",
     "display": "standalone",
     "orientation": "any",
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#ff0",
+    "background_color": "#ff0",
     "icons": [
         {
             "src": "/images/pt.svg",
